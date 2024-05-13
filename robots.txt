@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /light
+Sitemap: https://vasha-masha.ru/sitemap.xml
