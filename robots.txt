@@ -1,3 +1,4 @@
 User-Agent: *
 Disallow: /light
+Disallow: /404.html
 Sitemap: https://vasha-masha.ru/sitemap.xml
