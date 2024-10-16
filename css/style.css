@@ -280,21 +280,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-our-services,
+#fh5co-contacts,
 #fh5co-about-us,
 #fh5co-features,
 #fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-press {
-  padding: 7em 0;
+  padding: 2em 0;
 }
 @media screen and (max-width: 480px) {
   #fh5co-our-services,
+  #fh5co-contacts,
   #fh5co-about-us,
   #fh5co-features,
   #fh5co-testimonials,
   #fh5co-pricing,
   #fh5co-press {
-    padding: 5em 0;
+    padding: 3em 0;
   }
 }
 
@@ -449,10 +451,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-our-services,
+#fh5co-contacts,
 #fh5co-press {
   background: #f4f4f4;
 }
-
+#fh5co-contacts,
 #fh5co-our-services .box {
   padding: 30px;
   background: #fff;
@@ -462,11 +465,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-our-services .box {
+  #fh5co-contacts, #fh5co-our-services .box {
     min-height: inherit;
     margin-bottom: 60px;
   }
 }
+#fh5co-contacts,
 #fh5co-our-services .box .icon {
   width: 85px;
   height: 85px;
@@ -482,34 +486,43 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   text-align: center;
 }
+#fh5co-contacts,
 #fh5co-our-services .box .icon > span {
   display: table-cell;
   vertical-align: middle;
 }
+#fh5co-contacts,
 #fh5co-our-services .box .icon > span i {
   font-size: 40px;
   color: #fff !important;
   margin: 0;
   padding: 0;
 }
+#fh5co-contacts,
 #fh5co-our-services .box .icon.colored-1 {
   background: #2aaf67;
 }
+#fh5co-contacts,
 #fh5co-our-services .box .icon.colored-2 {
   background: #00bff3;
 }
+#fh5co-contacts,
 #fh5co-our-services .box .icon.colored-3 {
   background: #f26522;
 }
+#fh5co-contacts,
 #fh5co-our-services .box .icon.colored-4 {
   background: #e52b50;
 }
+#fh5co-contacts,
 #fh5co-our-services .box .icon.colored-5 {
   background: #2fc5cc;
 }
+#fh5co-contacts,
 #fh5co-our-services .box .icon.colored-6 {
   background: #6173f4;
 }
+#fh5co-contacts,
 #fh5co-our-services .box .step-number {
   font-size: 16px;
   display: block;
@@ -519,6 +532,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-bottom: 10px;
 }
+#fh5co-contacts,
 #fh5co-our-services .box h3 {
   margin: 0 0 20px 0;
   padding: 0;
@@ -528,7 +542,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-features {
-  padding: 7em 0;
+  padding: 2em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-features {
@@ -625,6 +639,10 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     width: 100%;
   }
+}
+
+#footer .row-bottom-padded-sm {
+  padding-bottom: 0em;
 }
 
 .fh5co-nav-toggle {
@@ -750,7 +768,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer {
-  padding: 50px 0;
+  padding: 20px 0;
   color: #7f7f7f;
 }
 #footer .copyright {
