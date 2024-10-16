@@ -231,8 +231,8 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   clear: both;
 }
 .section-heading h2 {
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-press {
-  padding: 7em 0;
+  padding: 2em 0;
 }
 @media screen and (max-width: 480px) {
   #fh5co-our-services,
@@ -294,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-testimonials,
   #fh5co-pricing,
   #fh5co-press {
-    padding: 5em 0;
+    padding: 3em 0;
   }
 }
 
@@ -528,11 +528,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-features {
-  padding: 7em 0;
+  padding: 2em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-features {
-    padding: 4em 0;
+    padding: 2em 0;
   }
 }
 #fh5co-features .fh5co-service {
@@ -625,6 +625,10 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     width: 100%;
   }
+}
+
+#footer .row-bottom-padded-sm {
+  padding-bottom: 0em;
 }
 
 .fh5co-nav-toggle {
@@ -750,7 +754,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer {
-  padding: 50px 0;
+  padding: 20px 0;
   color: #7f7f7f;
 }
 #footer .copyright {
@@ -982,7 +986,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item, .owl-carousel-fullwidth .fh5co-owl-text-wrap {
     height: inherit;
-    padding: 5em 0;
+    padding: 3em 0;
   }
 }
 .owl-carousel-fullwidth .fh5co-owl-text-wrap {
